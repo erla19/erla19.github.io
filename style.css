@@ -1,0 +1,118 @@
+body {
+	padding-top: 200px;
+	margin: 0 auto;
+  min-width: 350px;
+	width: 50%;
+	background-color: white;
+	text-align: center;
+  font-family: OCR A Std, monospace;
+  color: #222d54;
+}
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+}
+main {
+	margin: 0 auto;
+}
+
+.in 
+{
+  display: inline-block;
+}
+
+.hidden
+{
+  color: rgba(0, 0, 0, 0);
+}
+
+.settings
+{
+  position: relative;
+  right :90px;
+}
+
+#generateButton {
+
+}
+
+#grids {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#grids.hidden {
+  color: rgba(0, 0, 0, 0);
+
+}
+
+#grid TR {
+    background-color: yellow;
+}
+
+table {
+    background-color: #2f3848;
+}
+
+
+#grids TR TD {
+  background: #ffe064;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+
+#grids TR TD.one {
+      color: blue;
+      background-color: #F5F5F5;
+      font-weight: bold;
+}
+
+#grids TR TD.two {
+    color: green;
+    background-color: #F5F5F5;
+    font-weight: bold;
+}
+
+#grids TR TD.threeOrMore {
+    color: red;
+    background-color: #F5F5F5;
+    font-weight: bold;
+}
+
+#grids TR TD.clicked {
+    color: #F5F5F5;
+    background: #F5F5F5;
+}
+
+#grids TR TD.win {
+      color: #6da50a;
+      background-color: #6da50a;
+}
+
+#grids TR TD.flag {
+    background-image: url("flag.png");
+    background-color: #ffffff;
+    background-size: 100% 100%;
+    color: rgba(0, 0, 0, 0);
+}
+
+#grids TR TD.mine {
+    background-image: url("bomb.png");
+    background-size: 100% 100%;
+    background-color: #f05768;
+    color: rgba(0, 0, 0, 0);
+}
+
+button {
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #0a1336;
+    height: 30px;
+    color: white;
+}
+

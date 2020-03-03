@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Minesweeper</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <h1>MineSweeper!</h1>
+
+    <div class="settings" id="settings">
+        <div class="in">
+            <label for="new_rows">Rows:</label>
+            <input type="number" id="new_rows" placeholder="rows" min="1" value="10" max="40"/><br>
+            <label for="new_columns">Columns:</label>
+            <input type="number" id="new_columns" placeholder="rows" min="1" value="10" max="40"/><br>
+            <label for="new_mines">Mines:</label>
+            <input type="number" id="new_mines" placeholder="rows" min="1" value="10" max="40"/>
+        </div>
+    </div>
+    <br>
+    <button id="generateButton" type="button" onclick="doAjax()">Play!</button>
+
+    <p id="Intro">Welcome to MineSweeper</p>
+    <table id="grids"></table>
+    <br>
+    <p> by Erla and Hrafnkell 
+
+    <script src="Script.js"> </script>
+
+</body>
+</html>
